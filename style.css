@@ -1,0 +1,282 @@
+
+input {
+    padding:10px;
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+.title-box{
+    margin-left: 1px;
+    height: 80px;
+    background-color: green;
+}
+.title-box div{
+    font-size: 23px;
+}
+.title-name{
+  
+    margin-bottom: 10px;
+    font-weight: 400
+ color: white;
+ margin-top: 15px;
+}
+.under-text{
+    width: 60%;
+}
+
+
+.under-text-bar{
+    width: 50%;
+    margin: 40px 0;
+}
+.fa-check{
+    color:#929fa6;
+    text-decoration: none;
+}
+.name{
+    font-weight: 400;text-decoration: none;
+}
+.side-show img{
+    margin-top: 10%;
+}
+.space{
+    margin-right: 10px;
+}
+.box{
+    height: 4em;
+    background-color: green;
+}
+.user{
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.box img{
+    padding: 10px;
+    width: 60px;
+}
+.icons {
+    margin-top: 10px;
+    color: #80878A;
+    -webkit-text-stroke: 100px #EEEEEE;
+}
+.svg-inline--fa{
+    font-size: 20px;
+}
+.search {
+    background-color: green;
+    padding: 10px 15px;
+}
+.search input{
+    height: 30px;
+    font-size: 13px;
+}
+a img{
+    width: 50px;
+}
+
+.badge-pill{
+    width : 80px; 
+    height: 20px; 
+    margin-top : 10px;
+    padding: 20px;  
+}
+
+.col-md-4{
+    border-right: 1px solid #E5E5E5;
+    padding-right: 0;
+}
+.col-md-8{
+    height: 100vh;
+    background-color: #F8F9FB;
+}
+.col-2{
+    padding-right: 20px;
+}
+.col-6{
+    padding-right: 0;
+    padding-left: 5px;
+}
+.col-2{
+    padding-left: 0;
+}
+.col-2 time{
+    font-size: 14px;
+}
+.col-2 .badge{
+    background-color: #09d261;
+    color: white;
+
+    border-radius: 50%;
+}
+.text-muted .link {
+    color: #09d261;
+    text-decoration: none;
+    font-weight: 600;
+    font-size:15px;
+}
+.side-show .under-image{
+    color: #4b5961;
+    font-weight: 300;
+    font-size: 36px;
+    margin: 20px 0;
+}
+.side-show p,.space{
+    font-size: 14px;
+    color: #929fa6;
+    line-height: 20px;
+}
+.chat-row{
+    height: 60px;
+}
+
+
+.chat-bg{
+    /*background-image: url("../img/chat-bg.png");*/
+    padding-left: 0;
+}
+.list-group-item{
+    line-height:20px;
+    margin-top: 30px;
+    font-size: 15px;
+    
+}
+.list-group-item:nth-child(odd){
+    float: left;
+    text-align: left;
+}
+.list-group-item:nth-child(odd) time{
+    float: right;
+}
+.list-group-item:nth-child(even) time{
+    float: left;
+}
+.list-group-item:nth-child(even){
+    float: left;
+    text-align: right;
+    background-color: #DCF8C6;
+}
+#color{
+    float: left;
+    background-color:white;
+}
+.list-group-item:last-child{
+    margin-bottom: 60px;
+}
+.chats .row:hover{
+    background-color: #E5E5E5;
+}
+.type {
+    padding: 15px 0;
+}
+.col-8{
+    margin-left: 0;
+    margin-right: 0;
+}
+.type input{
+    height: 30px;
+    font-size: 13px;
+}
+.em-smiley{
+    margin: 19px 0 0 19px;
+}
+.profile{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.g{
+    margin-left:25px; 
+    margin-right:25px;
+    color: white; 
+    margin-top: 30px;
+}
+.profile-box{
+    height: 5em;
+    background-color:green
+     /*#00BFA5;*/
+}
+.fa-arrow-left{
+    margin:35px 60px 60px 40px;
+    color: white;
+}
+.name-box{
+    height: 4em;
+}
+.info-box{
+    height: 5em;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+.info-box div{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #4b5961;
+    font-weight: 400;
+}
+ #about{
+    color: green;
+    font-weight: 500;
+}
+.image-box img{
+    display: block;
+    width: 15rem;
+    padding-top:5px;
+    /*margin-top: 2rem;*/
+    margin : auto;
+
+}
+.image-box{
+    display: block;
+    height: 14em;
+    background-color: #F7F7F7;
+}
+.btn1{
+    background-color: white;
+}
+.fa-edit {
+    color: green;
+}
+/* Media queries */
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    .list-group-item:last-child{
+        margin-bottom: 60px;
+   }
+}
+@media (max-width: 767px) {
+    .screen-reduce{
+        height: 100vh;
+   }
+    .col-md-8{
+        padding-right: 0;
+   }
+    .list-group-item{
+        margin-left: 1em;
+        margin-right: 1em;
+   }
+}
+@media (max-width: 420px) {
+    .screen-reduce{
+        display:none;
+   }
+    .col-4{
+        width: 100%;
+   }
+    .list-group-item{
+        margin-left: 1em;
+        margin-right: 1em;
+   }
+    .col-md-8{
+        padding-right: 0;
+   }
+   .list-group-item:last-child{
+    margin-bottom: 10px;
+}
+}
